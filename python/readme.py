@@ -62,4 +62,4 @@ def main(repo_url):
 
 # Example usage
 if __name__ == "__main__":
-    main("https://github.com/Polarneil/pandas.git")
+    main("https://github.com/Polarneil/auto_readme.git")
