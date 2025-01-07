@@ -10,7 +10,7 @@ client = openai.OpenAI(api_key=openai.api_key)
 
 
 # Clone repo
-def clone_repo(repo_url, clone_path="../repos/"):
+def clone_repo(repo_url, clone_path="../cloned_repos/"):
     if os.path.exists(clone_path):
         os.system(f"rm -rf {clone_path}")
     git.Repo.clone_from(repo_url, clone_path)
